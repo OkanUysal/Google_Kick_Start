@@ -16,18 +16,14 @@ void solve() {
 	cin >> n >> x;
 	vector<int> a(n);
 
-	for(int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++) {
 		cin >> a[i];
 	}
 
 	sort(a.begin(), a.end());
 
-//	for(int i = 0; i < n; i++) {
-//		cout << ' ' << a[i];
-//	}
-
-	for(int i = 0; i < n; i++) {
-		if(amount + a[i] > x) {
+	for (int i = 0; i < n; i++) {
+		if (amount + a[i] > x) {
 			break;
 		}
 		amount += a[i];
@@ -45,7 +41,7 @@ int main() {
 	cin.tie(0);
 	int t;
 	cin >> t;
-	for( int i = 1; i <= t; i++) {
+	for (int i = 1; i <= t; i++) {
 		cout << "Case #" << i << ": ";
 		solve();
 	}
