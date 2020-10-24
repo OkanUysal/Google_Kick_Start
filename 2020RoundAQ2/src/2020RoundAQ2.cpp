@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : 2020RoundAQ1.cpp
+// Name        : 2020RoundAQ2.cpp
 // Author      : Okan UYSAL
 // Version     :
 // Copyright   : Your copyright notice
